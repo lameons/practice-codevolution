@@ -30,7 +30,7 @@ function NameList() {
     const nameList = names.map((name, index) => <h2 key={index} >{index + 1}. {name}</h2> )
   return (
     <div>
-        <h1>{personList}</h1>
+        <h1>{personList}</h1>   
         
         <h1 className='text-2xl'>{nameList}</h1>
         {/* { 
