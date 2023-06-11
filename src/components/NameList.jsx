@@ -26,13 +26,13 @@ function NameList() {
     const personList = persons.map(person => (
         <Person key={person.id} person={person}/>
     ));
-    // const names = ['jeco' ,' glen' , 'eddie' , 'carl' , 'johnly'];
-    // const nameList = names.map(name => <h2>{name}</h2> )
+    const names = ['jeco' ,' glen' , 'eddie' , 'carl' , 'johnly'];
+    const nameList = names.map((name, index) => <h2 key={index} >{index + 1}. {name}</h2> )
   return (
     <div>
         <h1>{personList}</h1>
         
-        {/* <h1 className='text-2xl'>{nameList}</h1> */}
+        <h1 className='text-2xl'>{nameList}</h1>
         {/* { 
         // MAP METHOD
             names.map(name => <h2>{name}</h2>)
