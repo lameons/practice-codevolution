@@ -32,7 +32,7 @@ function NameList() {
     <div>
         <h1>{personList}</h1>   
         
-        <h1 className='text-2xl'>{nameList}</h1>
+        <h1 className='text-2xl' >{nameList}</h1>
         {/* { 
         // MAP METHOD
             names.map(name => <h2>{name}</h2>)
